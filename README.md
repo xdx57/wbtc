@@ -113,7 +113,7 @@ Saat pertama kali menjalankan tools ini, kamu akan diminta untuk memasukkan **pa
 
 Jika kamu upgrade atau downgrade versi Python di Termux, tools ini mungkin tidak berjalan normal. Tapi tenang, proses re-clone ini **dilakukan otomatis oleh sistem** jika terdeteksi versi Python berubah.
 
-Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password** saat menjalankan tools pertama kali.
+Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password**.
 
 > 💡 Ini penting karena beberapa bagian tools bisa tergantung versi Python tertentu.
 
