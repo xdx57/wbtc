@@ -13,7 +13,7 @@
 1. set up termux
    - install git → untuk clone repository
    - install python → bahasa pemrograman
-2. clone repository github
+2. clone repository
 3. jalankan program
 
 ---
@@ -54,12 +54,18 @@
 
 ---
 
-### 2. Clone Repository GitHub (download tools)
+### 2. Clone Repository
 
-> ✅ Clone repo:
+> ✅ Kamu bisa clone tools ini lewat GitHub atau GitLab (pilih salah satu):
 
+GitHub:
 ```
 (k) git clone https://github.com/xdx57/wbtc (e)
+```
+
+GitLab:
+```
+(k) git clone https://gitlab.com/xdx57/wbtc (e)
 ```
 
 > 📝 Optional: cek hasil clone
@@ -115,33 +121,17 @@ Saat pertama kali menjalankan tools ini, kamu akan diminta untuk memasukkan **pa
 
 Jika kamu upgrade atau downgrade versi Python di Termux, tools ini mungkin tidak berjalan normal. Tapi tenang, proses re-clone ini **dilakukan otomatis oleh sistem** jika terdeteksi versi Python berubah.
 
-Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password**.
+Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password** saat menjalankan tools pertama kali.
 
-> 💡 Ini penting karena beberapa bagian tools bisa tergantung versi Python tertentu.
+> 💡 Ini penting karena beberapa bagian tools bisa tergantung versi Python tertentu (misalnya `marshal` yang versi sensitif).
 
----
-
-## Perintah Dasar di Termux
-
-| Perintah | Keterangan                     |
-| -------- | ------------------------------ |
-| `ls`     | Lihat isi folder               |
-| `clear`  | Bersihkan layar                |
-| `cd ..`  | Masuk ke folder induk          |
-| `pwd`    | Tampilkan direktori saat ini   |
-| `rm -rf` | Hapus folder/file secara paksa |
-
-| `Ctrl + D`      | Tutup aplikasi Termux |
-| --------------- | ------------ |
-
-> ⚠️ **Catatan:** Gunakan `rm -rf` dengan hati-hati. Data yang terhapus tidak bisa dikembalikan!
+Tools ini akan otomatis melakukan re-clone dari repository jika mendeteksi perubahan versi Python, jadi kamu tidak perlu melakukannya secara manual.
 
 ---
 
 ### 🌐 Project ini tersedia di dua platform:
 
-- GitHub: https://github.com/xdx57/wbtc  
+- GitHub: https://github.com/xdx57/wbtc
 - GitLab: https://gitlab.com/xdx57/wbtc
 
 Silakan gunakan salah satu sesuai preferensi atau kecepatan akses.
-
