@@ -138,8 +138,10 @@ Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password**.
 
 ---
 
-### 📦 Mirror Project (GitLab)
+### 🌐 Project ini tersedia di dua platform:
 
-Repo ini juga tersedia di GitLab:\
-🔗 [https://gitlab.com/xdx57/wbtc](https://gitlab.com/xdx57/wbtc)
+- GitHub: https://github.com/xdx57/wbtc  
+- GitLab: https://gitlab.com/xdx57/wbtc
+
+Silakan gunakan salah satu sesuai preferensi atau kecepatan akses.
 
