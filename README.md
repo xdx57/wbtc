@@ -129,9 +129,8 @@ Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password**.
 | `pwd`    | Tampilkan direktori saat ini   |
 | `rm -rf` | Hapus folder/file secara paksa |
 
-| **(hati-hati)** |              |
+| `Ctrl + D`      | Tutup aplikasi Termux |
 | --------------- | ------------ |
-| `Ctrl + D`      | Tutup Termux |
 
 > ⚠️ **Catatan:** Gunakan `rm -rf` dengan hati-hati. Data yang terhapus tidak bisa dikembalikan!
 
