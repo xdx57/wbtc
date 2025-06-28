@@ -1,7 +1,6 @@
 # wbtc
 
-[![GitHub Repo](https://img.shields.io/badge/Source-GitHub-black?logo=github)](https://github.com/xdx57/wbtc)
-[![Mirror](https://img.shields.io/badge/Mirror-GitLab-orange?logo=gitlab)](https://gitlab.com/xdx57/wbtc)
+&#x20;
 
 ---
 
@@ -10,21 +9,24 @@
 ### Tahapan:
 
 1. set up termux
-    - install git → untuk clone repository
-    - install python → bahasa pemrograman
+   - install git → untuk clone repository
+   - install python → bahasa pemrograman
 2. clone repository github
-3. jalankan program 
+3. jalankan program
 
 ---
 
 ### Yang dibutuhkan:
-- download aplikasi termux (di Playstore)
-- download aplikasi warp 1.1.1.1 / VPN (di Playstore)
-- repository: https://github.com/xdx57/wbtc
+
+- Download aplikasi Termux (di Playstore)
+- Download aplikasi Warp 1.1.1.1 / VPN (di Playstore)
+- Repository utama: [https://github.com/xdx57/wbtc](https://github.com/xdx57/wbtc)
+- Mirror GitLab (jika GitHub bermasalah): [https://gitlab.com/xdx57/wbtc](https://gitlab.com/xdx57/wbtc)
 
 ---
 
 ### Alias:
+
 - `(k)` = ketik
 - `(e)` = enter
 
@@ -53,16 +55,19 @@
 ### 2. Clone Repository GitHub (download tools)
 
 > ✅ Clone repo:
+
 ```
 (k) git clone https://github.com/xdx57/wbtc (e)
 ```
 
 > 📝 Optional: cek hasil clone
+
 ```
 (k) ls (e)
 ```
 
 > ⚠️ Kalau gagal clone karena folder `wbtc` udah ada:
+
 ```
 (k) rm -rf wbtc (e)
 ```
@@ -72,16 +77,19 @@
 ### 3. Jalankan Program
 
 > ✅ Masuk ke folder:
+
 ```
 (k) cd wbtc (e)
 ```
 
 > ✅ Cek isi folder (opsional)
+
 ```
 (k) ls (e)
 ```
 
 > ✅ Jalankan tools:
+
 ```
 (k) python p.py (e)
 ```
@@ -90,14 +98,17 @@
 
 ## Perintah Dasar di Termux
 
-| Perintah      | Keterangan                                      |
-|---------------|-------------------------------------------------|
-| `ls`          | Lihat isi folder                                |
-| `clear`       | Bersihkan layar                                 |
-| `cd ..`       | Masuk ke folder induk                           |
-| `pwd`         | Tampilkan direktori saat ini                    |
-| `rm -rf`      | Hapus folder/file secara paksa **(hati-hati)**  |
-| `Ctrl + D`    | Tutup Termux                                    |
+| Perintah | Keterangan                      |
+| -------- | ------------------------------- |
+| `ls`     | Lihat isi folder                |
+| `clear`  | Bersihkan layar                 |
+| `cd ..`  | Masuk ke folder induk           |
+| `pwd`    | Tampilkan direktori saat ini    |
+| `rm -rf` | Hapus folder/file secara paksa  |
+
+| **(hati-hati)** |              |
+| --------------- | ------------ |
+| `Ctrl + D`      | Tutup Termux |
 
 > ⚠️ **Catatan:** Gunakan `rm -rf` dengan hati-hati. Data yang terhapus tidak bisa dikembalikan!
 
@@ -105,6 +116,6 @@
 
 ### 📦 Mirror Project (GitLab)
 
-Repo ini juga tersedia di GitLab:  
-🔗 https://gitlab.com/xdx57/wbtc
+Repo ini juga tersedia di GitLab:\
+🔗 [https://gitlab.com/xdx57/wbtc](https://gitlab.com/xdx57/wbtc)
 
