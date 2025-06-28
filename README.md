@@ -96,15 +96,38 @@
 
 ---
 
+## ⚠️ Tentang Password
+
+Saat pertama kali menjalankan tools ini, kamu akan diminta untuk memasukkan **password**.
+
+- Simpan baik-baik password tersebut.
+- Jika kamu lupa password, **tools tidak bisa diakses kembali**.
+- Tidak ada sistem reset / lupa password. Jaga baik-baik!
+- Rekomendasi: catat di tempat aman atau gunakan password manager.
+
+> 🔐 Keamanan tools ini memang sengaja dirancang untuk menjaga privasi data pengguna.
+
+---
+
+## ♻️ Re-Clone Ulang Jika Versi Python Berubah
+
+Jika kamu upgrade atau downgrade versi Python di Termux, tools ini mungkin tidak berjalan normal. Tapi tenang, proses re-clone ini **dilakukan otomatis oleh sistem** jika terdeteksi versi Python berubah.
+
+Setelah re-clone otomatis, kamu akan **diminta untuk input ulang password** saat menjalankan tools pertama kali.
+
+> 💡 Ini penting karena beberapa bagian tools bisa tergantung versi Python tertentu.
+
+---
+
 ## Perintah Dasar di Termux
 
-| Perintah | Keterangan                      |
-| -------- | ------------------------------- |
-| `ls`     | Lihat isi folder                |
-| `clear`  | Bersihkan layar                 |
-| `cd ..`  | Masuk ke folder induk           |
-| `pwd`    | Tampilkan direktori saat ini    |
-| `rm -rf` | Hapus folder/file secara paksa  |
+| Perintah | Keterangan                     |
+| -------- | ------------------------------ |
+| `ls`     | Lihat isi folder               |
+| `clear`  | Bersihkan layar                |
+| `cd ..`  | Masuk ke folder induk          |
+| `pwd`    | Tampilkan direktori saat ini   |
+| `rm -rf` | Hapus folder/file secara paksa |
 
 | **(hati-hati)** |              |
 | --------------- | ------------ |
