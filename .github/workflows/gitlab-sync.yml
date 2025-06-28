@@ -1,0 +1,21 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main  # Ganti kalau branch utamamu bukan 'main'
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Push to GitLab
+        run: |
+          git config --global user.name "GitHub Sync Bot"
+          git config --global user.email "sync@github"
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/xdx57/wbtc.git
+          git push --mirror gitlab
