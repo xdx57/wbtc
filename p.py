@@ -31,6 +31,6 @@ def dec(token, pwd):
     except:
         return None
 
-#dashboard
+#dashboard.
 exec(dec(decdashboard, "kodoksalto"))
 #bakso.tanpa.tepung#
